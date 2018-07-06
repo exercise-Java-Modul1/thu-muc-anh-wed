@@ -1,0 +1,364 @@
+.body{
+    width: 1500;
+    /*margin: auto;*/
+}
+
+#top {
+    height: 80px;
+    background: black;
+    text-align: center; /* viết giữa dòng */
+    line-height: 40px;
+}
+
+#left {
+    float: left;
+    width: 250px;
+    color: white;
+}
+
+#center {
+    float: left;
+    width: 1000px;
+    color: blue;
+}
+
+#right {
+    float: left;
+    width: auto;
+    background: cornflowerblue;
+}
+
+#mua_ngay {
+    width: 220px;
+}
+
+#mua_ngay a {
+    text-decoration: none;
+}
+
+#menu{
+    height: 60px;
+    background: black;
+    padding-bottom: 10px;
+}
+
+#menu ul{
+    list-style-type: none; /*mất dấu chấm đầu mỗi câu */
+    float: left;
+}
+
+#menu ul li {
+    float: left;
+    width: 110px;
+}
+
+#menu ul li a {
+    text-decoration: none;     /* không gạch chân */
+    line-height: auto;
+    color: white;
+}
+
+#menu ul li a:hover {       /*di chuột vào đổi màu */
+    color: chartreuse;
+}
+#lam_phai_lon {
+background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/images/galaxy-note8_overview_kv_type1_m.jpg");
+    background-size: cover; /*tràn màn*/
+    /*background-position: center;*/
+    /*background-attachment: fixed;*/        /* làm ảnh chạy*/
+    width: 100%;
+    height: 870px;
+    color: white;
+    font-weight: bolder;
+    float: left;
+}
+#trai {
+    float: left;
+    width: 1000px;
+    height: 120px;
+}
+#phai {
+    float: left;
+    width: 500px;
+    height: 120px;
+}
+#tren {
+    height: 60px;
+}
+#duoi {
+    font-size: 25px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+#lpl {
+    text-align: center;
+    font-size: 100px;
+}
+#anh_lpl {
+    width: 80%;
+    margin-left: 16%;
+}
+#video {
+    float: left;
+    height: 500px;
+}
+
+#vo_cuc {
+    background: black;
+    height: 3000px;
+    text-align: center;
+    font-weight: bold;        /* kiểu chữ */
+    padding-top: 30px;
+    color: white;
+}
+#trai_nghiem {
+    font-size: 30px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+#thiết_kế {
+    font-size: 25px;
+}
+#mhvc {
+    font-size:60px;
+    margin-top: 10px;
+}
+
+#ahihi {
+padding: 0px 100px 0px 100px;
+}
+#vo_cuc ul li {
+    list-style-type: none;
+    float: left;
+    width: 170px;
+    font-size: 17px;
+}
+#d {
+    padding-left: 460px;
+}
+#xuong {
+    padding-top: 30px;
+    font-weight: initial;
+    font-size: 20px;
+}
+#hihi {
+    font-weight: initial;
+    font-size: 17px;
+}
+.canchinh {
+    z-index: 1;
+    position: absolute;
+    top: 2545px;
+    left: 300px;
+    width: 200px;
+    height: 100px;
+}
+.canchinh ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+#vo_cuc a {
+    text-decoration: none;
+    color: white;
+}
+#spen {
+    height: 1430px;
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/images/galaxy-note8_spen_sketch01_m.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+}
+.header {
+    font-size: 60px;
+}
+.info {
+    font-weight: initial;
+    font-size:22px;
+}
+.note {
+    font-weight: initial;
+    font-size: 18px;
+}
+#spen a {
+    text-decoration: none;
+    color: white;
+}
+.btn-timhieu {
+    border: solid 1px #ccc;        /*tạo khung*/
+    border-radius: 26px;          /*chinh khung hinh tròn các cạnh */
+    display: inline-block;       /*trên 1 dòng */
+    padding: 13px 20px;
+    font-size: 18px;
+}
+.btn-timhieu:hover{
+    background: #ccc;
+    color:#fff;
+}
+.subHeader {
+    font-size: 45px;
+}
+#ahuhu {
+    padding: 0px 130px 0px 130px;
+}
+#spen ul li {
+    list-style-type: none;
+}
+.i {
+    float: left;
+    padding-left: 80px;
+    font-size: 18px;
+    font-weight: initial;
+}
+#ii {
+    padding-left: 470px;
+}
+#j {
+    padding-bottom: 15px;
+}
+#but {
+    z-index:1; /* chỉnh cao hơn so với tốp*/
+    position: absolute;
+    top: 4396px;
+    right: 500px;
+}
+#camera {
+    height: 1500px;
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/camera/images/galaxy-note8-camera_dual-bg_s.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+    overflow: hidden; /*ẩn những phần thừa ngoài div */
+}
+#camera a {
+    color: white;
+    text-decoration: none;
+}
+.icon_camera {
+    padding: 0px 62px 0px 62px;
+}
+.icon_camera_chu {
+    float: left;
+    list-style-type: none;
+    padding-left: 60px;
+    font-size:18px;
+    font-weight: initial;
+ }
+ #canchinh_icon_camera {
+     padding-left: 350px;
+ }
+ .anh_camera {
+     padding-left: 417px;
+ }
+ #timhieuthem_camera {
+    font-size: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 6210px;
+    left: 670px;
+}
+#hieu_suat {
+    height: 1800px;
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/images/galaxy-note8_performance_s.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+}
+#hieu_suat a {
+    color: white;
+    text-decoration: none;
+}
+#hieu_suat_canchinhkhung {
+    padding-top: 450px;
+}
+.icon_hieusuat {
+    padding: 0px 60px 0px 60px;
+}
+.icon_hieusuat_chu {
+    float: left;
+    list-style-type: none;
+    padding: 0px 30px 0px 30px;
+    font-size:18px;
+    font-weight: initial;
+}
+#canchinh_icon_hieusuat {
+    padding-left: 440px;
+}
+.anh_hieusuat {
+    padding-top: 50px;
+}
+#phonecong {
+    height: 3360px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+#phonecong a {
+    text-decoration: none;
+    color: black;
+}
+.icon_phonecong {
+    padding: 0px 57px 0px 52px;
+}
+.icon_phonecong_chu {
+    float: left;
+    list-style-type: none;
+    padding-left: 110px;
+    font-size:18px;
+    font-weight: initial;
+}
+#canchinh_icon_phonecong {
+    padding-left: 388px;
+}
+.anh_mayquayphoncong {
+    padding: 178px 35px 0px 35px;
+}
+#anh_manhinhphoncong {
+    z-index:1;
+    position: absolute;
+    top: 9176px;
+    right: 517px;
+}
+#anh_gearphoncong {
+    z-index:2;
+    position: absolute;
+    top: 9360px;
+    right: 471px;
+}
+#can_chinh_SmartSwitch {
+    padding-top: 120px;
+}
+#l {
+    border-bottom: solid 2px;
+    display: inline-block;       /*trên 1 dòng */
+    padding: 13px 20px;
+    font-size: 18px;
+}
+#l:hover {
+    color: dodgerblue;
+}
+.can_chinh_anh_phonecong {
+    padding: 35px 0px 80px 0px;
+}
+#bot {
+    height: 500px;
+    background: black;
+}
+
+.a {
+    background: cyan;
+}
